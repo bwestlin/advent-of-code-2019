@@ -1,0 +1,23 @@
+[package]
+name = "advent-of-code-2019"
+version = "0.1.0"
+authors = ["Björn Westlin <bwestlin@gmail.com>"]
+edition = "2018"
+
+[dependencies]
+regex = "1"
+lazy_static = "1.1"
+time = "0.1"
+rayon = "*"
+md5 = "*"
+num_cpus = "*"
+
+[features]
+default = []
+print = []
+timeit = []
+
+[lib]
+name = "utils"
+path = "src/lib.rs"
+
